@@ -1,0 +1,5 @@
+Command to create docker image
+docker build -t fastpi-docker .
+
+Command to create docker container
+docker run -d --name fastapi-docker-container -p 80:80 fastapi-docker
